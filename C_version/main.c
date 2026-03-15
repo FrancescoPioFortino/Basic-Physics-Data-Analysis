@@ -12,7 +12,7 @@ int main (void){
     scanf("%f", &data[i]);
     
   }
-
+  printf("\n--- RESULTS OF ANALYSIS---\n");
   float mean = calculate_mean(data);
   printf("The mean is: %.2f\n", mean);
   printf("The maximum value is: %.2f\n", find_maximum(data));
